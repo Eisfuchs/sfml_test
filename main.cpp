@@ -13,17 +13,17 @@ int main()
 	// Load a sprite to display
 	sf::Texture texture;
 	if (!texture.loadFromFile("media/image/mario.png"))
-		;// return EXIT_FAILURE;
+		return EXIT_FAILURE;
 	sf::Sprite sprite(texture);
 	// Create a graphical text to display
 	sf::Font font;
 	if (!font.loadFromFile("media/font/arial.ttf"))
-		;// return EXIT_FAILURE;
+		return EXIT_FAILURE;
 	sf::Text text("Hello SFML", font, 50);
 	// Load a music to play
 	sf::Music music;
 	if (!music.openFromFile("media/sound/mario.ogg"))
-		;// return EXIT_FAILURE;
+		return EXIT_FAILURE;
 	// Play the music
 	music.play();
 	
