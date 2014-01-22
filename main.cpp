@@ -1,5 +1,8 @@
 #include <SFML/Audio.hpp>
 #include <SFML/Graphics.hpp>
+//#include <SFML/System.hpp>
+//#include <SFML/Network.hpp>
+//#include <SFML/Window.hpp>
 
 int main()
 {
@@ -14,9 +17,7 @@ int main()
 	// Load a music to play
 	sf::Music music;
 	if (!music.openFromFile("mario.ogg"))
-		//return EXIT_FAILURE;
-		System::Console::ReadKey();
-
+		return EXIT_FAILURE;
 	// Play the music
 	music.play();
 	// Start the game loop
@@ -30,6 +31,27 @@ int main()
 			if (event.type == sf::Event::Closed)
 				window.close();
 		}
+		
+		double speed = 0.1;
+
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up))
+		{
+			sprite.setPosition(sprite.getPosition().x, sprite.getPosition().y - speed);
+		}
+
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down))
+		{
+			sprite.setPosition(sprite.getPosition().x, sprite.getPosition().y + speed);
+		}
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
+		{
+			sprite.setPosition(sprite.getPosition().x - speed, sprite.getPosition().y);
+		}
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
+		{
+			sprite.setPosition(sprite.getPosition().x + speed, sprite.getPosition().y);
+		}
+
 		// Clear screen
 		window.clear();
 		// Draw the sprite
