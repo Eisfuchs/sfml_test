@@ -1,12 +1,12 @@
-﻿Der Buildvorgang wurde am 22.01.2014 11:18:47 gestartet.
+﻿Der Buildvorgang wurde am 22.01.2014 11:31:24 gestartet.
      1>Projekt "F:\Google Drive\Projekte\VS\sfml_test\sfml_test.vcxproj" auf Knoten "2", Build Ziel(e).
      1>ClCompile:
          E:\Programme\Microsoft Visual Studio 2013\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib main.cpp
          main.cpp
-     1>main.cpp(39): warning C4244: 'Argument': Konvertierung von 'double' in 'float', möglicher Datenverlust
-     1>main.cpp(44): warning C4244: 'Argument': Konvertierung von 'double' in 'float', möglicher Datenverlust
-     1>main.cpp(48): warning C4244: 'Argument': Konvertierung von 'double' in 'float', möglicher Datenverlust
-     1>main.cpp(52): warning C4244: 'Argument': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>main.cpp(50): warning C4244: 'Argument': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>main.cpp(54): warning C4244: 'Argument': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>main.cpp(58): warning C4244: 'Argument': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>main.cpp(62): warning C4244: 'Argument': Konvertierung von 'double' in 'float', möglicher Datenverlust
        Link:
          E:\Programme\Microsoft Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Google Drive\Projekte\VS\sfml_test\Debug\sfml_test.exe" /INCREMENTAL /NOLOGO "sfml-graphics-d.lib" "sfml-audio-d.lib" "sfml-system-d.lib" "sfml-window-d.lib" "sfml-network-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Google Drive\Projekte\VS\sfml_test\Debug\sfml_test.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\main.obj
          "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
@@ -15,4 +15,4 @@
 
 Build erfolgreich.
 
-Verstrichene Zeit 00:00:02.00
+Verstrichene Zeit 00:00:01.97
