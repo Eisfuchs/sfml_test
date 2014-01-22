@@ -1,8 +1,11 @@
-﻿Der Buildvorgang wurde am 22.01.2014 11:51:04 gestartet.
+﻿Der Buildvorgang wurde am 22.01.2014 12:19:28 gestartet.
      1>Projekt "F:\Google Drive\Projekte\VS\sfml_test\sfml_test.vcxproj" auf Knoten "2", Build Ziel(e).
      1>ClCompile:
          E:\Programme\Microsoft Visual Studio 2013\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib main.cpp
          main.cpp
+     1>main.cpp(17): warning C4390: ';': Leere kontrollierte Anweisung aufgetreten; ist dies beabsichtigt?
+     1>main.cpp(22): warning C4390: ';': Leere kontrollierte Anweisung aufgetreten; ist dies beabsichtigt?
+     1>main.cpp(28): warning C4390: ';': Leere kontrollierte Anweisung aufgetreten; ist dies beabsichtigt?
      1>main.cpp(55): warning C4244: 'Argument': Konvertierung von 'double' in 'float', möglicher Datenverlust
      1>main.cpp(59): warning C4244: 'Argument': Konvertierung von 'double' in 'float', möglicher Datenverlust
      1>main.cpp(63): warning C4244: 'Argument': Konvertierung von 'double' in 'float', möglicher Datenverlust
@@ -15,4 +18,4 @@
 
 Build erfolgreich.
 
-Verstrichene Zeit 00:00:02.08
+Verstrichene Zeit 00:00:01.86

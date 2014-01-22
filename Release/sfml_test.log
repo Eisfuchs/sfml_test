@@ -1,16 +1,21 @@
-﻿Der Buildvorgang wurde am 22.01.2014 10:26:02 gestartet.
-     1>Projekt "F:\Google Drive\Projekte\VS\sfml_test\sfml_test.vcxproj" auf Knoten "2", Rebuild Ziel(e).
+﻿Der Buildvorgang wurde am 22.01.2014 12:20:16 gestartet.
+     1>Projekt "F:\Google Drive\Projekte\VS\sfml_test\sfml_test.vcxproj" auf Knoten "2", Build Ziel(e).
      1>ClCompile:
          E:\Programme\Microsoft Visual Studio 2013\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib main.cpp
          main.cpp
-         E:\Programme\Microsoft Visual Studio 2013\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Lars\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
-         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+     1>main.cpp(17): warning C4390: ';': Leere kontrollierte Anweisung aufgetreten; ist dies beabsichtigt?
+     1>main.cpp(22): warning C4390: ';': Leere kontrollierte Anweisung aufgetreten; ist dies beabsichtigt?
+     1>main.cpp(28): warning C4390: ';': Leere kontrollierte Anweisung aufgetreten; ist dies beabsichtigt?
+     1>main.cpp(55): warning C4244: 'Argument': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>main.cpp(59): warning C4244: 'Argument': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>main.cpp(63): warning C4244: 'Argument': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>main.cpp(67): warning C4244: 'Argument': Konvertierung von 'double' in 'float', möglicher Datenverlust
        Link:
          E:\Programme\Microsoft Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Google Drive\Projekte\VS\sfml_test\Release\sfml_test.exe" /INCREMENTAL:NO /NOLOGO "sfml-graphics.lib" "sfml-audio.lib" "sfml-system.lib" "sfml-window.lib" "sfml-network.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Google Drive\Projekte\VS\sfml_test\Release\sfml_test.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\main.obj
          "Release\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
          sfml_test.vcxproj -> F:\Google Drive\Projekte\VS\sfml_test\Release\sfml_test.exe
-     1>Die Erstellung des Projekts "F:\Google Drive\Projekte\VS\sfml_test\sfml_test.vcxproj" ist abgeschlossen, Rebuild Ziel(e).
+     1>Die Erstellung des Projekts "F:\Google Drive\Projekte\VS\sfml_test\sfml_test.vcxproj" ist abgeschlossen, Build Ziel(e).
 
 Build erfolgreich.
 
-Verstrichene Zeit 00:00:02.40
+Verstrichene Zeit 00:00:02.28
