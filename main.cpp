@@ -4,6 +4,8 @@
 //#include <SFML/Network.hpp>
 #include <SFML/Window.hpp>
 
+using namespace System;
+
 int main()
 {
 	// Create the main window
@@ -26,7 +28,10 @@ int main()
 	music.play();
 	
 	// starts the clock
-	sf::Clock clock; 
+	sf::Clock clock;
+
+	// last mouse position
+	sf::Vector2i last_mouse_position;
 	
 	// Start the game loop
 	while (window.isOpen())
@@ -60,6 +65,29 @@ int main()
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
 		{
 			sprite.setPosition(sprite.getPosition().x + speed, sprite.getPosition().y);
+		}
+		
+		// only if its a new mouse position
+		if (last_mouse_position != sf::Mouse::getPosition())
+		{
+			if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
+			{
+				Console::WriteLine("Klick Maustaste: Links; X: " + sf::Mouse::getPosition().x 
+					+ "; Y: " + sf::Mouse::getPosition().x);
+				last_mouse_position = sf::Mouse::getPosition();
+			}
+			if (sf::Mouse::isButtonPressed(sf::Mouse::Middle))
+			{
+				Console::WriteLine("Klick Maustaste: Mitte; X: " + sf::Mouse::getPosition().x
+					+ "; Y: " + sf::Mouse::getPosition().x);
+				last_mouse_position = sf::Mouse::getPosition();
+			}
+			if (sf::Mouse::isButtonPressed(sf::Mouse::Right))
+			{
+				Console::WriteLine("Klick Maustaste: Rechts; X: " + sf::Mouse::getPosition().x
+					+ "; Y: " + sf::Mouse::getPosition().x);
+				last_mouse_position = sf::Mouse::getPosition();
+			}
 		}
 
 		// Clear screen
